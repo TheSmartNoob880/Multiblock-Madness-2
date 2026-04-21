@@ -564,5 +564,12 @@ event.shaped('mbm2:centrifuge_mk2', ['ABA','CDC','AEA'], {A: 'kubejs:osmium_plat
 
 	  //Hephaestus Smithing Station
 	  event.shaped('mbm2:hephaestus_smithing_station', ['ABA','CDC','CEC'], {A: Item.of('forbidden_arcanus:netherite_blacksmith_gavel', '{Damage:0}'),B: Item.of('tconstruct:scorched_anvil', '{texture:"forbidden_arcanus:arcane_gold_block"}'),C: 'kubejs:tier_2_magical_alloy_sprocket',D: 'forbidden_arcanus:arcane_dragon_egg',E: 'ars_nouveau:arcane_core'}).id('mbm2:multiblocked/hephaestus_smithing_station')
+
+	  //Source Liquifier
+	  event.shaped('mbm2:source_liquifier', ['AB ','CDB','EFG'], {A: 'create:brass_hand',B: 'kubejs:source_tube',C: 'ars_nouveau:source_jar',D: 'sophisticatedbackpacks:advanced_pump_upgrade',E: 'ars_nouveau:purple_archwood_wood',F: 'minecraft:bucket',G: 'supplementaries:faucet'}).id('mbm2:multiblocked/source_liquifier_l')
+	  event.shaped('mbm2:source_liquifier', [' AB','ACD','EFG'], {A: 'kubejs:source_tube',B: 'create:brass_hand',C: 'sophisticatedbackpacks:advanced_pump_upgrade',D: 'ars_nouveau:source_jar',E: 'supplementaries:faucet',F: 'minecraft:bucket',G: 'ars_nouveau:purple_archwood_wood'}).id('mbm2:multiblocked/source_liquifier_r')
+
+	  //Ore Infuser
+	  event.shaped('mbm2:ore_purification_infuser', ['ABA','CDE','FGH'], {A: 'elementalcraft:purerock',B: 'rftoolsbase:infused_enderpearl',C: 'elementalcraft:pedestal_earth',D: 'elementalcraft:pure_element_holder',E: 'elementalcraft:pedestal_air',F: 'elementalcraft:pedestal_fire',G: 'elementalcraft:pureinfuser',H: 'elementalcraft:pedestal_water'}).id('mbm2:multiblocked/ore_infuser')
 	  })
 
